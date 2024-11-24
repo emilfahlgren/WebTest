@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 label: 'Bench Press (kg)',
                 data: [60, 62.5, 65, 65, 70], // Y-axis data points (e.g., weight lifted)
-                borderColor: 'rgba(75, 192, 192, 1)', // Line color
+                borderColor: 'rgba(52, 152, 219, 1)', // Solid color
+                backgroundColor: 'rgba(52, 152, 219, 0.2)', // Slightly transparent fill
                 fill: false
             }]
         },

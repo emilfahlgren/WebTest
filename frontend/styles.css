@@ -13,14 +13,14 @@ button {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #3498db;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #45A049;
+    background-color: #3498da;
 }
 
 #chart-container {
@@ -33,4 +33,27 @@ button:hover {
 canvas {
     width: 100%;
     height: 100%;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-bottom: 2px solid #3498db; /* Optional: subtle border */
+}
+
+/* Style the logo text */
+.logo span {
+    font-family: 'Poppins', sans-serif; /* Modern font */
+    font-size: 28px; /* Adjust font size */
+    font-weight: 600; /* Semi-bold weight */
+    color: #2c3e50; /* Cool dark color */
+}
+
+/* Optional: Hover effect */
+.logo span:hover {
+    color: #3498db; /* Change to a vibrant blue on hover */
+    cursor: pointer;
 }
